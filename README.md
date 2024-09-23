@@ -11,11 +11,11 @@ Bem-vindo ao **Marvel Series App**, um aplicativo em Flutter que lista as série
 
 ## 📱 Screenshots
 
-![HomeScreen](![Screenshot_1727110872](https://github.com/user-attachments/assets/ae76f859-2dbe-446b-a0a7-e88feb31bd14))
+[HomeScreen](https://github.com/user-attachments/assets/0864faef-a19d-4738-a3a0-72885f26d275)
 
-![Detalhes](![Screenshot_1727110890](https://github.com/user-attachments/assets/4f34ece6-0880-4e95-87c3-727aeb6bdc61))
+[Detalhes](https://github.com/user-attachments/assets/4f34ece6-0880-4e95-87c3-727aeb6bdc61)
 
-![Erro](![Screenshot_1727111379](https://github.com/user-attachments/assets/a6d7a2da-02a0-4577-8695-b07472fc3fde))
+[Tela de Erro](https://github.com/user-attachments/assets/a6d7a2da-02a0-4577-8695-b07472fc3fde)
 
 ## 🛠️ Tecnologias Utilizadas
 
