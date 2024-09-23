@@ -11,7 +11,22 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Marvel App',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+        primaryColor: Color(0xFFED1D24), // Vermelho Marvel
+        scaffoldBackgroundColor: Color(0xFF333333), // Cinza escuro
+        appBarTheme: AppBarTheme(
+          backgroundColor: Color(0xFFED1D24), // AppBar em vermelho
+          titleTextStyle: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+            fontFamily: 'MarvelFont', // Fonte personalizada
+          ),
+        ),
+        textTheme: TextTheme(
+          bodyMedium: TextStyle(color: Colors.white),
+        ),
+      ),
       initialRoute: '/',
       routes: {
         '/': (context) => HomeScreen(),
@@ -20,4 +35,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

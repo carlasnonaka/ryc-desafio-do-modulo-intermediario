@@ -21,7 +21,8 @@ class DetailsScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Center(
-              child: Image.network(imageUrl, height: 300), // Exibe a imagem da série
+              child: Image.network(imageUrl,
+                  height: 300), // Exibe a imagem da série
             ),
             SizedBox(height: 20),
             Text(
